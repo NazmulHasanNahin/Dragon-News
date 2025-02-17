@@ -1,12 +1,14 @@
-import Header from "./Shared/Header";
-import LeftSideNav from "./Shared/LeftSideNav";
-import Navbar from "./Shared/Navbar";
-import RightSideNav from "./Shared/RightSideNav";
+import Header from "../Shared/Header";
+import LeftSideNav from "../Shared/LeftSideNav";
+import Navbar from "../Shared/Navbar";
+import RightSideNav from "../Shared/RightSideNav";
+import BreakingNews from "./BreakingNews";
 
 const Home = () => {
     return (
         <div>
             <Header></Header>
+            <BreakingNews></BreakingNews>
             <Navbar></Navbar>
             <h1>home</h1>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
