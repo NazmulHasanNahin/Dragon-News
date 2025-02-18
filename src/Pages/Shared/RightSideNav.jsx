@@ -26,13 +26,21 @@ const RightSideNav = () => {
                         Facebook
                     </button>
                     <button className="mt-2 flex p-4 border-2 w-full">
-                        <FaXTwitter  className="text-2xl mr-2 " />
+                        <FaXTwitter className="text-2xl mr-2 " />
                         Twitter
                     </button>
                     <button className="mt-2 flex p-4  border-2 w-full">
                         <FiInstagram className="text-2xl mr-2 " />
                         Instagram
                     </button>
+                </div>
+            </div>
+            <div>
+                <h1 className="text-3xl mt-10 mb-2">Q-Zone</h1>
+                <div className="items-center bg-gray-100 pt-4 rounded-lg">
+                    <img className="mt-6 mx-auto" src="https://i.ibb.co.com/XkzSm7Rt/81f5332d-8610-4a3e-b6dd-d9be14749010.png" alt="" />
+                    <img className="mt-6 mx-auto" src="https://i.ibb.co.com/tPYPS41x/336f2b4a-389a-4b05-8974-29284954c307.png" alt="" />
+                    <img className="mt-6 mx-auto" src="https://i.ibb.co.com/0df4Hg1/9f6f92ad-4cc2-4b05-8f64-8c0ff9031c25.png" alt="" />
                 </div>
             </div>
         </div>
